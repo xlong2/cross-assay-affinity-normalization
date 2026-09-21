@@ -1,0 +1,49 @@
+# =====================================================================
+# Allowlist: ignore everything, then re-include the code, the docs,
+# the raw inputs, and the computed matrices and figures.
+#
+# Running the pipeline rewrites data/processed/ and results/, both of
+# which are tracked, so `git status` will show those as modified.
+#
+# NOTE ON ORDER: git applies the LAST matching pattern, so the "never,
+# anywhere" rules at the bottom win over the allowlist above them.
+# =====================================================================
+
+# --- 1. ignore everything by default ---
+*
+
+# --- 2. descend into directories so nested allowlisting can work ---
+!*/
+
+# --- 3. code ---
+!/src/*.py
+
+# --- 4. project files ---
+!/README.md
+!/LICENSE
+!/requirements.txt
+!/.gitignore
+
+# --- 5. documentation and background material ---
+!/docs/**
+
+# --- 6. data: raw inputs and computed matrices ---
+!/data/raw/**
+!/data/processed/*.csv
+
+# --- 7. figures ---
+!/results/**/*.pdf
+!/results/**/*.png
+
+# --- 8. never, anywhere ---
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.DS_Store
+.~lock.*#
+*~
+*.swp
+*.zip
+*.tar.gz
+*.log

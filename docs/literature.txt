@@ -1,0 +1,12 @@
+https://www.pnas.org/doi/pdf/10.1073/pnas.2121153119
+Matching protein surface structural patches for high-resolution
+blind peptide docking
+
+
+
+Modeling beta-sheet peptide-protein interactions: Rosetta FlexPepDock in CAPRI rounds 38-45+
+Published in final edited form as:Proteins. 2020 August ; 88(8): 1037–1049. doi:10.1002/prot.25871.Author ManuscriptAuthor ManuscriptAuthor ManuscriptAuthor Manuscript
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240450
+Assessing multiple score functions in Rosetta for drug discovery
+

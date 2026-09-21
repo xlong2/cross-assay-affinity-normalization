@@ -1,0 +1,10 @@
+# Python >= 3.9
+#
+# pandas >= 2.1 is a hard floor: src/calibrate.py uses DataFrame.map,
+# which replaced DataFrame.applymap in pandas 2.1.
+pandas>=2.1
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+matplotlib>=3.4
+seaborn>=0.11
